@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'Odyne';
+	src: url('Odyne-Regular.eot');
+	src: url('Odyne-Regular.eot?#iefix') format('embedded-opentype'),
+		url('Odyne-Regular.woff') format('woff'),
+		url('Odyne-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body {
+  height: auto;
+  width: 100%;
+  background: #f7f9fa;
+	color: #333;
+  overflow-x: hidden;
+}
+.full-page {
+  height: 100vh;
+  width: 100vw;
+}
+.half-page {
+	height: auto;
+	width: 100vw;
+}
+
+/* Scroll to top button */
+
+#scrollToTop {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	height: 35px;
+	width: 30px;
+	opacity: 0;
+	background-image: url('../scrollTop.png');
+	background-size: cover;
+	z-index: 100;
+	transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+#scrollToTop:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+footer {
+	background: #1c2026;
+	text-align: center;
+	font-size: 0.6em;
+	margin: 0;
+	padding: 10px 0;
+}
+footer p {
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #80858a;
+}
+
+
+/* media queries */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Mobile portrait */
+@media (orientation: portrait) {
+
+}
+
+@media (orientation: landscape) {
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

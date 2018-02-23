@@ -12,9 +12,11 @@ def index(request):
     if request.method == 'POST':
 
         form = ContactForm(request.POST)
+        post = True
+
         if form.is_valid():
-            subject = "new message"
-            message = form.cleaned_data['first_name']
+            subject = "New Odyne Contact Form Submission"
+            message = form.cleaned_data['message']
             sender = 'lorenmsheets@gmail.com'
             recipient = ['lorenmsheets@gmail.com']
             send_mail(subject, message, sender, recipient)
@@ -22,16 +24,13 @@ def index(request):
     else:
 
         form = ContactForm()
+        post = False
 
-    context = {'form': form}
+    context = {'form': form, 'post': post}
 
     return render(request, 'index.html', context )
 
 
-def thanks(request):
-
-    response = {'response': 'Thanks!'}
-    return render(request, 'index.html', response)
 
 def db(request):
 
