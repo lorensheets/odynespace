@@ -48,7 +48,7 @@ $(document).ready(function() {
     el.css("-o-transform","translate3d(0,"+ Math.round(offset/2) +"px,0)");
   }
   function setRotate(offset, deg, el) {
-    el.css("transform","translate3d(0, " + Math.round(offset) + "px, 0) rotate(" + deg + "deg)");
+    el.css("transform","translate3d(0, " + Math.round(offset) + "px, 0) rotate(-" + deg + "deg)");
   }
 
   $('#scrollToTop').on('click', function() {
