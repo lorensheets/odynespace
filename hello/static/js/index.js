@@ -24,7 +24,7 @@ $(document).ready(function() {
     if (offset > window.innerHeight * 0.5) {
       setTranslate(-(offset - (window.innerHeight)) * 0.03, rocketRender);
       setTranslate( (offset - (window.innerHeight * 0.5)) * 0.15, spaceBg);
-      setRotate( -(offset - (window.innerHeight)) * 0.05, (offset - (window.innerHeight) - 500) * 0.005, rocketRender);
+      setRotate( -(offset - (window.innerHeight)) * 0.05, (offset - (window.innerHeight) - 1000) * 0.005, rocketRender);
     }
 
     if (offset > window.innerHeight * 0.75 && scrollButtonVisible == false) {
