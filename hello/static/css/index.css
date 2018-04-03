@@ -325,8 +325,10 @@ a:hover {
   text-decoration: none;
   height: 29px;
   width: 29px;
+  margin: 0 0;
   background: #11161f;
   position: relative;
+  overflow: hidden;
   transition: 0.1s;
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s;
@@ -334,7 +336,8 @@ a:hover {
   -o-transition: 0.1s;
 }
 .link-row a.social-media-link:hover {
-  background: #21262f;
+  margin: -29px 0 0 0;
+  background: #ff4444;
   transition: 0.1s;
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s;
@@ -342,9 +345,7 @@ a:hover {
   -o-transition: 0.1s;
 }
 .link-row a.social-media-link img {
-  position: absolute;
-  top: 3px;
-  left: 3px;
+  margin: 3px;
   height: 23px;
   width: 23px;
 }
