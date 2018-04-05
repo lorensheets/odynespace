@@ -246,9 +246,10 @@ a:hover {
   display: block;
   content: "";
   margin: 16px auto;
-  height: 2px;
-  width: 24px;
-  background: #777;
+  height: 1px;
+  border-bottom: 1px dotted #777;
+  width: 30px;
+  background: none;
 }
 .press a:hover {
   text-decoration: none;
