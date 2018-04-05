@@ -247,7 +247,7 @@ a:hover {
   content: "";
   margin: 16px auto;
   height: 1px;
-  border-bottom: 1px dotted #999;
+  border-bottom: 1px dotted #505558;
   width: 33px;
   background: none;
 }
