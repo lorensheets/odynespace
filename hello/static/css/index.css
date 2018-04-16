@@ -288,7 +288,7 @@ a:hover {
   width: 250px;
 }
 .underline {
-  border-bottom: 1px dotted #59c;
+  border-bottom: 1px dotted #607faf;
 }
 .underline h2 {
   color: #eee;
@@ -384,7 +384,7 @@ input[type="email"] {
   padding-left: 10px;
   color: rgba(255,255,255,0.6);
   background: none;
-  border: 1px dotted rgba(255,255,255,0.7);
+  border: 1px dotted #607faf;
   border-radius: 1px;
 }
 input[type="text"]:focus,
@@ -403,7 +403,7 @@ textarea {
   letter-spacing: 1px;
   color: rgba(255,255,255,0.6) !important;
   background: none;
-  border: 1px dotted rgba(255,255,255,0.7);
+  border: 1px dotted #607faf;
   border-radius: 1px;
 }
 
