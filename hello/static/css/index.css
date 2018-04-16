@@ -530,9 +530,9 @@ input[type="submit"]:hover {
   }
   .request-info {
     background: none;
-    border-left: 2px solid #333;
+    border: 2px solid #161b25;
     padding: 10px 20px;
-    color: #333;
+    color: #161b25;
   }
 }
 
