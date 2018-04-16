@@ -227,7 +227,7 @@ a:hover {
 }
 
 .press-container {
-  background: #0a0d13;
+  background: #8f909e;
   padding: 40px 0 50px 0;
 }
 .press {
@@ -239,7 +239,8 @@ a:hover {
 }
 .press h5 {
   font-family: "Oswald", sans-serif;
-  color: #777;
+  color: #fff;
+  opacity: 0.5;
   letter-spacing: 2px;
 }
 .press h5::after {
@@ -247,7 +248,8 @@ a:hover {
   content: "";
   margin: 16px auto;
   height: 1px;
-  border-bottom: 1px dotted #606569;
+  border-bottom: 1px dotted #fff;
+  opacity: 0.5;
   width: 33px;
   background: none;
 }
@@ -257,7 +259,7 @@ a:hover {
 .press img {
   height: 50px;
   margin: 25px;
-  opacity: 0.7;
+  opacity: 0.5;
   filter: grayscale(100);
   transition: 0.1s;
   -webkit-transition: 0.1s;
@@ -266,7 +268,7 @@ a:hover {
   -o-transition: 0.1s;
 }
 .press img:hover {
-  opacity: 1;
+  opacity: 0.8;
   transition: 0.1s;
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s;
@@ -275,7 +277,7 @@ a:hover {
 }
 
 .contact {
-  background: #191d26;
+  background: #111318;
   color: #fff;
 }
 .contact-title {
