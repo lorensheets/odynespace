@@ -54,9 +54,9 @@ html, body {
 }
 
 footer {
-	background: #191d26;
+	background: #111015;
 	text-align: center;
-	font-size: 0.6em;
+	font-size: 0.5em;
 	margin: 0;
 	padding: 10px 0;
 }
@@ -64,8 +64,8 @@ footer p {
 	margin: 0;
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
-	letter-spacing: 3px;
-	color: #80858a;
+	letter-spacing: 2px;
+	color: #393d48;
 }
 
 
