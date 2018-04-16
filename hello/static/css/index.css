@@ -413,6 +413,7 @@ input[type="submit"] {
   padding: 10px 20px;
   font-family: 'Oswald', sans-serif;
   font-size: 0.8em;
+  text-transform: uppercase;
   letter-spacing: 0.15em;
   color: #303848;
   background: none;
