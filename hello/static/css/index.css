@@ -249,7 +249,6 @@ a:hover {
   margin: 16px auto;
   height: 1px;
   border-bottom: 1px dotted #fff;
-  opacity: 0.5;
   width: 33px;
   background: none;
 }
@@ -369,18 +368,24 @@ form {
 }
 label {
   display: block;
-  font-size: 0.8em;
-  font-family: 'Futura', sans-serif;
+  font-size: 0.7em;
+  font-family: 'Oswald', sans-serif;
   font-weight: 400 !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   color: #80858a;
 }
 input[type="text"],
 input[type="email"] {
   width: 100%;
-  font-family: 'Futura', sans-serif;
-  font-size: 0.8em;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.7em;
+  letter-spacing: 1px;
   padding-left: 10px;
-  color:#222;
+  color: rgba(255,255,255,0.6);
+  background: none;
+  border: 1px dotted rgba(255,255,255,0.7);
+  border-radius: 1px;
 }
 input[type="text"]:focus,
 input[type="email"]:focus,
@@ -394,8 +399,12 @@ textarea {
   height: 120px;
   padding: 8px 0 0 10px;
   font-family: 'Futura', sans-serif !important;
-  font-size: 0.8em !important;
-  color:#222 !important;
+  font-size: 0.7em !important;
+  letter-spacing: 1px;
+  color: rgba(255,255,255,0.6) !important;
+  background: none;
+  border: 1px dotted rgba(255,255,255,0.7);
+  border-radius: 1px;
 }
 
 input[type="submit"] {
