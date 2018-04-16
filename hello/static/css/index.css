@@ -304,9 +304,10 @@ a:hover {
 
 .link-row a.info-link {
   text-decoration: none;
-  color: #eee;
+  color: #80858a;
   font-family: 'Futura', sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
+  letter-spacing: 1px;
   transition: 0s;
   -webkit-transition: 0s;
   -moz-transition: 0s;
@@ -315,7 +316,7 @@ a:hover {
 }
 .link-row a.info-link:hover {
   cursor: pointer;
-  color: #999;
+  color: #fff;
   transition: 0s;
   -webkit-transition: 0s;
   -moz-transition: 0s;
