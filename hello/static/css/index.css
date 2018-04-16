@@ -515,10 +515,10 @@ input[type="submit"]:hover {
   h3 {  text-align: left; }
 
   input[type="submit"] {
-    border-radius: 0px;
-    border-left: 2px solid #f00;
+    border-radius: 1px;
+    border: 1px dotted #161b25;
     background: none;
-    padding: 10px 15px;
+    padding: 10px 20px;
   }
   .request-info {
     background: none;
