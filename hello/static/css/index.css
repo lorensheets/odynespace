@@ -155,7 +155,7 @@ p {
   background: none;
   border: none;
   color: #161b25;
-  border-left: 2px solid #161b25;
+  border: 2px solid #161b25;
   padding: 10px 20px;
   margin: 20px 0 0 0;
   font-family: 'Oswald', sans-serif;
@@ -171,7 +171,7 @@ p {
 .request-info:hover {
   cursor: pointer;
   background: #161b25;
-  border-left: 2px solid #161b25;
+  border: 2px solid #161b25;
   padding: 10px 20px;
   color: #fff;
   transition: 0.2s;
