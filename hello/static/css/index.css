@@ -456,15 +456,10 @@ input[type="submit"]:hover {
 @media (orientation: portrait) {
 
   input[type="submit"] {
-    border-left: none;
-    background: #f00;
-    padding: 10px 30px;
+
   }
   .request-info {
-    background: #f50;
-    border-left: none;
-    padding: 10px 30px;
-    color: #fff;
+
   }
   .headshot {
     width: 95%;
@@ -477,15 +472,10 @@ input[type="submit"]:hover {
 @media (orientation: landscape) {
 
   input[type="submit"] {
-    border-left: none;
-    background: #f00;
-    padding: 10px 30px;
+
   }
   .request-info {
-    background: #f50;
-    border-left: none;
-    padding: 10px 30px;
-    color: #fff;
+
   }
   .headshot {
     max-width: 400px;
@@ -524,16 +514,10 @@ input[type="submit"]:hover {
   h3 {  text-align: left; }
 
   input[type="submit"] {
-    border-radius: 1px;
-    border: 1px dotted #161b25;
-    background: none;
-    padding: 10px 20px;
+
   }
   .request-info {
-    background: none;
-    border: 2px solid #161b25;
-    padding: 10px 20px;
-    color: #161b25;
+
   }
 }
 
