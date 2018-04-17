@@ -39,6 +39,10 @@ html, body {
 	margin: 3px;
 	height: 25px;
 	width: 25px;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-ms-transition: 0.2s;
+	-o-transition: 0.2s;
 }
 #scrollToTop:hover > img {
 	transform: translateY(-29px);
