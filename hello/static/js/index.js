@@ -29,7 +29,7 @@ $(document).ready(function() {
 
     if (offset > window.innerHeight * 0.75 && scrollButtonVisible == false) {
       $('#scrollToTop').animate({
-        'opacity': 1
+        'opacity': 0.5
       }, 500);
       scrollButtonVisible = true;
     } else if (offset < window.innerHeight * 0.75 && scrollButtonVisible == true) {
