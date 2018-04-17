@@ -34,6 +34,11 @@ html, body {
 	width: 25px;
 	opacity: 0;
 	overflow: hidden;
+	z-index: 100;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-ms-transition: 0.2s;
+	-o-transition: 0.2s;
 }
 #scrollToTop img {
 	margin: 0px 0px 10px 0px;
@@ -44,6 +49,13 @@ html, body {
 	-ms-transition: 0.2s;
 	-o-transition: 0.2s;
 }
+#scrollToTop:hover {
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-ms-transition: 0.2s;
+	-o-transition: 0.2s;
+	opacity: 1;
+}
 #scrollToTop:hover > img {
 	transform: translateY(-35px);
   -webkit-transform: translateY(-35px);
@@ -51,7 +63,6 @@ html, body {
   -moz-transition: 0.2s;
   -ms-transition: 0.2s;
   -o-transition: 0.2s;
-	opacity: 1;
 }
 
 footer {
