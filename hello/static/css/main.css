@@ -36,7 +36,7 @@ html, body {
 	overflow: hidden;
 }
 #scrollToTop img {
-	margin: 0px;
+	margin: 0px 0px 10px 0px;
 	height: 25px;
 	width: 25px;
 	-webkit-transition: 0.2s;
@@ -45,8 +45,8 @@ html, body {
 	-o-transition: 0.2s;
 }
 #scrollToTop:hover > img {
-	transform: translateY(-25px);
-  -webkit-transform: translateY(-25px);
+	transform: translateY(-35px);
+  -webkit-transform: translateY(-35px);
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   -ms-transition: 0.2s;
