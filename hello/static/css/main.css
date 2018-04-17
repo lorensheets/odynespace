@@ -54,7 +54,7 @@ html, body {
 	-moz-transition: 0.2s;
 	-ms-transition: 0.2s;
 	-o-transition: 0.2s;
-	opacity: 1;
+	opacity: 1 !important;
 }
 #scrollToTop:hover > img {
 	transform: translateY(-35px);
