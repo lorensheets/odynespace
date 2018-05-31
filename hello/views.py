@@ -35,7 +35,7 @@ def index(request):
 
 
 def ascii_logo(request):
-    return render(request, 'ascii.txt')
+    return render(request, 'ascii.html')
 
 
 
