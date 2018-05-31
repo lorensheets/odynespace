@@ -33,6 +33,13 @@ def index(request):
 
 
 
+
+def ascii_logo(request):
+    return render(request, 'ascii.txt')
+
+
+
+
 def db(request):
 
     greeting = Greeting()

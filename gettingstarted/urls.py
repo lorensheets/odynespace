@@ -12,6 +12,7 @@ import hello.views
 
 urlpatterns = [
     url(r'^$', hello.views.index, name='index'),
+    url(r'^ascii-logo', hello.views.ascii_logo, name='ascii-logo'),
     url(r'^db', hello.views.db, name='db'),
     path('admin/', admin.site.urls),
 ]
