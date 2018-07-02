@@ -33,6 +33,11 @@ def index(request):
 
 
 
+def design(request):
+    return render(request, 'rocket-design.html')
+
+
+
 
 def ascii_logo(request):
     return render(request, 'ascii.html')
