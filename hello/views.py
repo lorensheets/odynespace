@@ -33,7 +33,7 @@ def index(request):
 
 
 
-def design(request):
+def rocket_design(request):
     return render(request, 'rocket-design.html')
 
 
