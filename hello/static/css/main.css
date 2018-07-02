@@ -23,11 +23,6 @@ html, body {
 	height: auto;
 	width: 100vw;
 }
-.center {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
 
 /* Scroll to top button */
 
