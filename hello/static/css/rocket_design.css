@@ -25,6 +25,10 @@ p {
 }
 
 .section {
-  margin-bottom: 1vh;
+  margin-bottom: 1vh !important;
   border-bottom: 1px dotted #ccc;
+}
+
+footer {
+  font-size: 0.5em !important;
 }
