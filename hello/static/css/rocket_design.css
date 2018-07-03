@@ -8,6 +8,10 @@ p {
   font-size: 1.3em !important;
 }
 
+.container-fluid {
+  margin-bottom: 100px !important;
+}
+
 .center {
   display: flex;
   flex-direction: row;
