@@ -8,6 +8,5 @@ function scroll() {
   });
 }
 
-window.onload = scroll;
-
+scroll();
 window.onscroll = scroll;
