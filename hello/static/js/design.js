@@ -1,7 +1,3 @@
-
-
-window.onscroll = scroll;
-
 function scroll() {
   $('.fade').each(function() {
 
@@ -11,3 +7,7 @@ function scroll() {
 
   });
 }
+
+scroll;
+
+window.onscroll = scroll;
