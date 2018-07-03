@@ -23,3 +23,8 @@ p {
   text-align: right;
   margin: 0 5vw 0 0;
 }
+
+.section {
+  margin-bottom: 1vh;
+  border-bottom: 1px dotted #ccc;
+}
