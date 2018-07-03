@@ -1,5 +1,7 @@
 * {
   font-family: 'Rajdhani', sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
 }
 
 
@@ -10,12 +12,12 @@
   justify-content: center;
 }
 
-.left {
+.left p {
   text-align: left;
   margin: 0 0 0 5vw;
 }
 
-.right {
+.right p {
   text-align: right;
   margin: 0 5vw 0 0;
 }
