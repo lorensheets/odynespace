@@ -3,9 +3,11 @@
 window.onscroll = scroll;
 
 function scroll() {
-  console.log( window.pageYOffset );
-}
+  $('.fade').each(function() {
 
-// $('.fade').each(function() {
-//
-// })
+    if ( window.pageYOffset > $(this).offset() ) {
+      $(this).css('opacity', 1);
+    }
+
+  })
+}
