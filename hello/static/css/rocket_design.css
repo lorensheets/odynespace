@@ -2,9 +2,7 @@ html, body {
   font-family: 'Rajdhani', sans-serif;
 }
 
-p {
-  margin: 0 5vw;
-}
+
 
 .center {
   display: flex;
@@ -12,6 +10,12 @@ p {
   justify-content: center;
 }
 
+.left {
+  text-align: left;
+  margin: 0 0 0 5vw;
+}
+
 .right {
   text-align: right;
+  margin: 0 5vw 0 0;
 }
