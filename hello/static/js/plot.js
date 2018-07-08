@@ -1742,7 +1742,12 @@ Plotly.plot( TESTER, [{
         gridwidth: 1,
         linecolor: '#eeeeee',
         linewidth: 1,
-        exponentformat: 'none'
+        exponentformat: 'none',
+        tickfont: {
+          family: 'Open Sans',
+          size: 1,
+          color: '#aaa'
+        }
       },
       yaxis: {
         // range: [6358100, 6478100],
@@ -1751,7 +1756,12 @@ Plotly.plot( TESTER, [{
         gridcolor: '#eeeeee',
         gridwidth: 1,
         linecolor: '#eeeeee',
-        linewidth: 1
-        exponentformat: 'none'
+        linewidth: 1,
+        exponentformat: 'none',
+        tickfont: {
+          family: 'Open Sans',
+          size: 1,
+          color: '#aaa'
+        }
     }
     } );
