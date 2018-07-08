@@ -1006,7 +1006,10 @@ Plotly.plot( TESTER, [{
       6255654.84728 - 6378100,
       6253406.97679 - 6378100
     ],
-    line: {shape: 'spline'},
+    line: {
+      shape: 'spline',
+      color: '#fc0'
+    },
  },
     {
      x: [
@@ -1733,7 +1736,10 @@ Plotly.plot( TESTER, [{
        -222592.479918 - 6378100,
        -111313.193498 - 6378100
      ],
-     line: {shape: 'spline'},
+     line: {
+       shape: 'spline',
+       color: '#5be'
+     },
     }], {
       xaxis: {
         range: [-20000, 160000],
@@ -1744,8 +1750,8 @@ Plotly.plot( TESTER, [{
         linewidth: 1,
         exponentformat: 'none',
         tickfont: {
-          family: 'Raleway',
-          size: 9,
+          family: 'Arial',
+          size: 8,
           color: '#444'
         }
       },
@@ -1759,8 +1765,8 @@ Plotly.plot( TESTER, [{
         linewidth: 1,
         exponentformat: 'none',
         tickfont: {
-          family: 'Raleway',
-          size: 9,
+          family: 'Arial',
+          size: 8,
           color: '#444'
         }
     }
