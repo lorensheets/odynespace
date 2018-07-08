@@ -20,16 +20,24 @@ p {
 
 .left p {
   text-align: left;
-  margin: 0 0 0 5vw;
+  margin: 0 0 0 4vw;
+  padding-left: 10px;
 }
 
 .right p {
   text-align: right;
-  margin: 0 5vw 0 0;
+  margin: 0 4vw 0 0;
+  padding-right: 10px;
 }
 
 .section {
   margin-bottom: 1vh !important;
+  border-bottom: 1px dotted #ccc;
+}
+
+.brackets {
+  border-top: 1px dotted #ccc;
+  border-left: 1px dotted #ccc;
   border-bottom: 1px dotted #ccc;
 }
 
