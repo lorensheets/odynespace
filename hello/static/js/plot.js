@@ -4,6 +4,7 @@
 TESTER = document.getElementById('tester');
 
 Plotly.plot( TESTER, [{
+    name: 'Rocket Trajectory',
     x: [
       0.0,
       0.0,
