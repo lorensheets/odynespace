@@ -1008,7 +1008,7 @@ Plotly.plot( TESTER, [{
     ],
     line: {
       shape: 'spline',
-      color: '#fc0'
+      color: '#dbd032'
     },
  },
     {
@@ -1738,7 +1738,7 @@ Plotly.plot( TESTER, [{
      ],
      line: {
        shape: 'spline',
-       color: '#5be'
+       color: '#195cc6'
      },
     }], {
       xaxis: {
