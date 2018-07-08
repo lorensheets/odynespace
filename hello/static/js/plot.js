@@ -1759,7 +1759,7 @@ Plotly.plot( TESTER, [{
       },
       yaxis: {
         // range: [6358100, 6478100],
-        range: [-20000, 180000],
+        range: [-20000, 200000],
         zeroline: false,
         gridcolor: '#eeeeee',
         gridwidth: 1,
