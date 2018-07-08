@@ -1742,7 +1742,7 @@ Plotly.plot( TESTER, [{
      },
     }], {
       xaxis: {
-        range: [-20000, 160000],
+        range: [-30000, 270000],
         zeroline: false,
         gridcolor: '#eeeeee',
         gridwidth: 1,
@@ -1757,7 +1757,7 @@ Plotly.plot( TESTER, [{
       },
       yaxis: {
         // range: [6358100, 6478100],
-        range: [-20000, 100000],
+        range: [-20000, 180000],
         zeroline: false,
         gridcolor: '#eeeeee',
         gridwidth: 1,
