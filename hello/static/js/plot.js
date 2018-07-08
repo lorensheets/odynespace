@@ -1741,7 +1741,8 @@ Plotly.plot( TESTER, [{
         gridcolor: '#eeeeee',
         gridwidth: 1,
         linecolor: '#eeeeee',
-        linewidth: 1
+        linewidth: 1,
+        exponentformat: 'none'
       },
       yaxis: {
         // range: [6358100, 6478100],
@@ -1751,5 +1752,6 @@ Plotly.plot( TESTER, [{
         gridwidth: 1,
         linecolor: '#eeeeee',
         linewidth: 1
+        exponentformat: 'none'
     }
     } );
