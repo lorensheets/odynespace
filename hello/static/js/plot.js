@@ -1735,6 +1735,6 @@ Plotly.plot( TESTER, [{
      ],
      line: {shape: 'spline'},
     }], {
-      xaxis: {range: [0, 120000]},
-      yaxis: {range: [6378100, 6558100]}
+      xaxis: {range: [-20000, 160000]},
+      yaxis: {range: [6358100, 6478100]}
     } );
