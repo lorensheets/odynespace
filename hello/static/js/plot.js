@@ -1744,9 +1744,9 @@ Plotly.plot( TESTER, [{
         linewidth: 1,
         exponentformat: 'none',
         tickfont: {
-          family: 'Open Sans',
-          size: 1,
-          color: '#aaa'
+          family: 'Raleway',
+          size: 9,
+          color: '#444'
         }
       },
       yaxis: {
@@ -1759,9 +1759,9 @@ Plotly.plot( TESTER, [{
         linewidth: 1,
         exponentformat: 'none',
         tickfont: {
-          family: 'Open Sans',
-          size: 1,
-          color: '#aaa'
+          family: 'Raleway',
+          size: 9,
+          color: '#444'
         }
     }
     } );
