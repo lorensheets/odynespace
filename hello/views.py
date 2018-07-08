@@ -34,6 +34,7 @@ def index(request):
 
 
 def rocket_design(request):
+
     return render(request, 'rocket-design.html')
 
 
