@@ -1,13 +1,6 @@
-new Chartist.Line('.chart', {
-  labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-  series: [
-    [12, 9, 7, 8, 5],
-    [2, 1, 3.5, 7, 3],
-    [1, 3, 4, 5, 6]
-  ]
-}, {
-  fullWidth: true,
-  chartPadding: {
-    right: 40
-  }
-});
+TESTER = document.getElementById('tester');
+
+Plotly.plot( TESTER, [{
+    x: [1, 2, 3, 4, 5],
+    y: [1, 2, 4, 8, 16] }], {
+    margin: { t: 0 } } );
