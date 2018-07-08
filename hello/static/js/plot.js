@@ -1,4 +1,4 @@
-new Chartist.Line('.ct-chart', {
+new Chartist.Line('.chart', {
   labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
   series: [
     [12, 9, 7, 8, 5],
