@@ -4,7 +4,6 @@
 TESTER = document.getElementById('tester');
 
 Plotly.plot( TESTER, [{
-    name: 'Launch Trajectory',
     x: [
       0.0,
       0.0,
@@ -1013,7 +1012,6 @@ Plotly.plot( TESTER, [{
     },
  },
     {
-     name: 'Earth',
      x: [
        6378100.0,
        6377128.58448,
@@ -1743,6 +1741,7 @@ Plotly.plot( TESTER, [{
        color: '#195cc6'
      },
     }], {
+      showlegend: false,
       xaxis: {
         range: [-30000, 270000],
         zeroline: false,
