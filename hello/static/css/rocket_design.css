@@ -39,12 +39,15 @@ p {
   border-bottom: 1px dotted #ccc;
 }
 
-.brackets {
-  width: 5%;
+.l-brackets, .r-brackets {
+  width: 5% !important;
   border-top: 1px dotted #ccc;
-  border-left: 1px dotted #ccc;
   border-bottom: 1px dotted #ccc;
 }
+
+.l-brackets { border-left: 1px dotted #ccc; }
+.r-brackets { border-right: 1px dotted #ccc; }
+
 
 footer {
   font-size: 0.5em !important;
