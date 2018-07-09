@@ -1753,8 +1753,8 @@ Plotly.plot( TESTER, [{
         exponentformat: 'none',
         tickfont: {
           family: 'Arial',
-          size: 8,
-          color: '#444'
+          size: 7,
+          color: '#555'
         }
       },
       yaxis: {
@@ -1768,8 +1768,8 @@ Plotly.plot( TESTER, [{
         exponentformat: 'none',
         tickfont: {
           family: 'Arial',
-          size: 8,
-          color: '#444'
+          size: 7,
+          color: '#555'
         }
     }
     } );
