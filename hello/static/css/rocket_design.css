@@ -15,7 +15,7 @@ h1 {
 }
 
 p {
-  font-size: 1.3em !important;
+  font-size: 0.5em !important;
 }
 
 .container-fluid {
@@ -54,7 +54,51 @@ p {
 .l-brackets { border-left: 1px dotted #ccc; }
 .r-brackets { border-right: 1px dotted #ccc; }
 
+img.rocket { width: auto; }
 
 footer {
   font-size: 0.5em !important;
+}
+
+
+
+
+
+
+/* media queries */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Mobile portrait */
+@media (orientation: portrait) {
+
+
+}
+
+/* Mobile landscape */
+@media (orientation: landscape) {
+
+
+}
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  img.rocket { width: auto; }
+
+  p { font-size: 1.3em !important; }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
