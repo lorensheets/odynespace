@@ -54,7 +54,7 @@ p {
 .l-brackets { border-left: 1px dotted #ccc; }
 .r-brackets { border-right: 1px dotted #ccc; }
 
-img.rocket { width: 275px; }
+img.rocket { margin-top: 133px; height: 1000px; }
 
 footer {
   font-size: 0.5em !important;
@@ -87,7 +87,7 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  img.rocket { width: auto; }
+  img.rocket { height: auto; }
 
   p { font-size: 1.3em !important; }
 
