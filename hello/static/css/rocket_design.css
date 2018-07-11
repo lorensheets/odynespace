@@ -54,7 +54,7 @@ p {
 .l-brackets { border-left: 1px dotted #ccc; }
 .r-brackets { border-right: 1px dotted #ccc; }
 
-img.rocket { width: auto; }
+img.rocket { width: 275px; }
 
 footer {
   font-size: 0.5em !important;
