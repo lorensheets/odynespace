@@ -3,8 +3,6 @@
 
 TESTER = document.getElementById('tester');
 
-window.onresize = Plotly.react(TESTER);
-
 Plotly.plot( TESTER, [{
     name: 'Trajectory',
     x: [
@@ -1777,3 +1775,8 @@ Plotly.plot( TESTER, [{
         }
     }
     } );
+
+
+    window.onresize = function() {
+      Plotly.Plots.resize(TESTER);
+    };
