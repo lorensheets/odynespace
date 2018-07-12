@@ -3,6 +3,8 @@
 
 TESTER = document.getElementById('tester');
 
+window.onresize = Plotly.relayout(TESTER);
+
 Plotly.plot( TESTER, [{
     name: 'Trajectory',
     x: [
