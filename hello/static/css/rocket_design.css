@@ -53,15 +53,13 @@ p { font-size: 0.5em !important; }
 img.rocket { margin-top: 133px; height: 1000px; }
 
 
-._1 {
-  margin-top: 60px;
-  margin-bottom: 35px;
-}
-
-._2 { margin-bottom: 170px }
-._3 { margin-bottom: 145px }
-._4 { margin-bottom: 335px }
-._5 { margin-bottom: 463px }
+._1 { margin-top: 60px; margin-bottom: 35px; }
+._2 { margin-bottom: 170px; }
+._3 { height: 114px; margin-top: -20px; }
+._4 { margin-bottom: 145px; }
+._5 { margin-bottom: 335px; }
+._6 { height: 260px; margin-top: -80px; }
+._7 { margin-bottom: 463px; }
 
 
 
@@ -92,6 +90,14 @@ img.rocket { margin-top: 133px; height: 1000px; }
   img.rocket { height: auto; }
 
   p { font-size: 1.3em !important; }
+
+  ._1 { margin-top: 60px; margin-bottom: 35px; }
+  ._2 { margin-bottom: 170px; }
+  ._3 { height: 114px; margin-top: -20px; }
+  ._4 { margin-bottom: 145px; }
+  ._5 { margin-bottom: 335px; }
+  ._6 { height: 260px; margin-top: -80px; }
+  ._7 { margin-bottom: 463px; }
 
 }
 
