@@ -91,6 +91,10 @@
   -webkit-text-fill-color: transparent;
 }
 
+.logo {
+  width: 80%;
+}
+
 .page-two,
 .page-three {
   display: flex;
@@ -481,6 +485,10 @@ input[type="submit"]:hover {
     max-width: 400px;
   }
 
+  .logo {
+    width: 70%;
+  }
+
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -496,6 +504,9 @@ input[type="submit"]:hover {
     margin: 0 -100px 0 0;
     padding: 0px 0px 40px 0;
     letter-spacing: 100px;
+  }
+  .logo {
+    width: 50%;
   }
   .rocket-render {
     width: 55vw;
