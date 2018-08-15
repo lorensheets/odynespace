@@ -91,10 +91,6 @@
   -webkit-text-fill-color: transparent;
 }
 
-.logo {
-  width: 80%;
-}
-
 .page-two,
 .page-three {
   display: flex;
