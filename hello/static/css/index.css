@@ -289,7 +289,7 @@ a:hover {
 .logo {
   display: block;
   margin: 0 auto;
-  width: 250px;
+  width: 250px !important;
 }
 .underline {
   border-bottom: 1px dotted #57637d;
@@ -494,7 +494,7 @@ input[type="submit"]:hover {
   }
 
   .logo {
-    width: 70%;
+    width: 350px !important;
   }
 
 }
@@ -514,7 +514,7 @@ input[type="submit"]:hover {
     letter-spacing: 100px;
   }
   .logo {
-    width: 50%;
+    width: 400px !important;
   }
   .rocket-render {
     width: 55vw;
@@ -542,6 +542,9 @@ input[type="submit"]:hover {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .logo {
+    width: 500px !important;
+  }
 
 }
 
