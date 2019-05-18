@@ -3,10 +3,12 @@
 <head>
   <title>Odyne Space</title>
   <meta name="description" content="">
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
   <!-- stylesheets & fonts -->
   <link rel="stylesheet" type="text/css" href="../static/css/main.css"/>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css' rel='stylesheet' />
   {% block head %}{% endblock %}
 
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
@@ -71,7 +73,7 @@
 {% block content %}{% endblock %}
 
   <footer>
-    <p>Copyright &copy; 2018 | Odyne Space </p>
+    <p>Copyright &copy; 2019 | Odyne Space </p>
   </footer>
 </body>
 </html>

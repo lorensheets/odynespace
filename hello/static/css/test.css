@@ -1,0 +1,463 @@
+html,body{
+  font-family: 'Exo 2', sans-serif !important;
+  font-weight: 300 !important;
+}
+.container-fluid {
+  font-size: 0;
+}
+
+.nowrap {
+  padding: 0 !important;
+  white-space: nowrap;
+}
+
+.quad {
+  display: block;
+  height: auto;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.flex {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#tl {
+  background-image: url('../Space-horizon-copy.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#tr {
+  background: #181b1f;
+  position: relative;
+  z-index: 1;
+  height: auto;
+}
+#bl {
+  background: #09080f;
+  position: relative;
+  z-index: 1;
+  height: auto;
+}
+#br {
+  background: #202327;
+  position: relative;
+  z-index: 1;
+  height: auto;
+}
+.content {
+  padding: 30px 30px;
+  position: relative;
+  white-space: normal;
+  width: 100%;
+  height: 100%;
+  font-size: initial;
+  color: #ddd;
+}
+.logo {
+  opacity: 0.66;
+  display: block;
+  width: 50vw;
+  margin: 30vh 0;
+}
+
+
+.arrow {
+  width: 3vw;
+  position: absolute;
+  bottom: 5vh;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  opacity: 0;
+  animation-name: fadeup;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+}
+.right {
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%) rotate(-90deg);
+}
+.centered {
+  text-align: center;
+  font-size: 0.7em;
+  margin: 10px 0 0 0;
+}
+.vertical {
+  transform: rotate(-90deg);
+  width: 100%;
+  text-align: center;
+  margin: 0 0 0 10px;
+  font-size: 0.7em;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.thin {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+.center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.fullwidth {
+  width: 100%;
+  height: auto;
+  margin: 50px 0 0 0;
+}
+.nowrap {
+  white-space: nowrap;
+}
+
+.team::before {
+  content: "";
+  background-image: url('/static/rocket-wireframe-invert.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.07;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.team {
+  background-size: 60px 60px;
+  background-image: linear-gradient(to right, rgba(255,255,255,0.02) 2px, transparent 2px), linear-gradient(to bottom, rgba(255,255,255,0.02) 2px, transparent 1.5px);
+}
+.people {
+  height: 60vh;
+}
+.name, .bio {
+  font-size: initial;
+  white-space: normal;
+  padding: 0px 20px 20px 20px;
+}
+.person {
+  display: block;
+  overflow: hidden;
+  margin: 2px;
+  filter: grayscale(0) brightness(100%);
+  -webkit-filter: grayscale(0) brightness(100%);
+  transition: 0.0s;
+  -webkit-transition: 0.0s;
+  height: 60vh;
+}
+.person img {
+  height: auto;
+  width: 30vw;
+  transition: 0.0s;
+  -webkit-transition: 0.0s;
+}
+.inline {
+  display: inline-block;
+  vertical-align: top;
+}
+.name h2 { display: inline-block; margin: 0; }
+.bio p { display: inline-block; }
+
+.name h2 span {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.5em;
+  color: #10a0f0;
+}
+
+
+
+/* contact page */
+
+
+.press {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10vh;
+}
+.press h5 {
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.press h5::after {
+  display: block;
+  content: "";
+  margin: 16px auto;
+  height: 1px;
+  border-bottom: 1px dotted #fff;
+  width: 33px;
+  background: none;
+}
+.press a:hover {
+  text-decoration: none;
+}
+.press img {
+  height: 30px;
+  margin: 5px 10px;
+  opacity: 0.5;
+  filter: grayscale(100);
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+.press img:hover {
+  opacity: 0.8;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+
+/* Contact form styles */
+.form {
+  font-size: initial;
+}
+.form h3 {
+  font-size: 1.5em;
+  font-weight: 400 !important;
+  letter-spacing: 1px;
+  color: #C5C8CF;
+  margin: 0 0 30px 0;
+}
+form {
+  color: #C5C8CF;
+  font-size: 0.8em;
+  font-weight: 200 !important;
+  letter-spacing: 1px;
+}
+label {
+  display: block !important;
+  font-weight: 200 !important;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 5px 10px;
+  color: #C5C8CF;
+  background: none;
+  border: 1px dotted #C5C8CF;
+  border-radius: 1px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="submit"]:focus,
+textarea:focus {
+  outline: none;
+}
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 120px;
+  padding: 8px 0 0 10px;
+  background: none;
+  border: 1px dotted #C5C8CF;
+  border-radius: 1px;
+}
+
+input[type="submit"] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  background: none;
+  border-radius: 1px;
+  border: 1px dotted #C5C8CF;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  border: 1px solid #161b25;
+  background: #161b25;
+  padding: 10px 20px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+#map_container {
+  position: relative;
+  font-size: initial;
+  color: #C5C8CF;
+  height: calc(88vh / 2);
+  margin: 20px 0 0 0;
+}
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.marker {
+  background-image: url('/static/iconfinder_Location_728975.svg');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+
+@keyframes fadeup
+{
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  z-index: 2;
+}
+
+
+
+
+
+
+
+/* media queries */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Mobile portrait */
+@media (orientation: portrait) {
+
+
+}
+
+/* Mobile landscape */
+@media (orientation: landscape) {
+
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .quad {
+    display: inline-block;
+    height: 50vh;
+    width: 50vw;
+  }
+  #tl {
+    height: 88vh;
+    width: 93vw;
+    display: inline-block;
+  }
+  #tr {
+    height: 88vh;
+    width: 7vw;
+  }
+  #bl {
+    height: 12vh;
+    width: 93vw;
+  }
+  #br {
+    height: 12vh;
+    width: 7vw;
+  }
+  .content {
+    height: 88vh;
+    width: 93vw;
+    padding: 50px 100px;
+  }
+  .logo {
+    position: absolute;
+    top: 44%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    margin: 0;
+ }
+ .person {
+   display: inline-block;
+   height: auto;
+   overflow: hidden;
+   margin: 2px;
+   filter: grayscale(0.5) brightness(70%);
+   -webkit-filter: grayscale(0.5) brightness(70%);
+   transition: 0.2s;
+   -webkit-transition: 0.2s;
+ }
+ .person img {
+   height: auto;
+   width: 13vw;
+   transition: 0.2s;
+   -webkit-transition: 0.2s;
+ }
+ .people {
+   height: auto;
+ }
+ .name, .bio {
+   padding: 0px 100px;
+ }
+ .name h2 { display: none; margin-bottom: 20px; }
+ .bio p { display: none; }
+ .press img {
+   height: 50px;
+   margin: 10px 25px;
+ }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
