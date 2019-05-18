@@ -1,0 +1,258 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block head %}  <link rel="stylesheet" type="text/css" href="../static/css/old.css"/>{% endblock %}
+
+{% block scripts %} <script src="/static/js/old.js"></script>{% endblock %}
+
+
+{% block content %}
+
+{% if post %}
+  <script>
+    thanks();
+  </script>
+{% endif %}
+
+<div class="container-fluid full-page landing-page">
+
+  <!--<img class="landing-page-bg" src="../static/asteroid-field-star.jpg"/>-->
+  <video id="hosted-video" class="landing-page-bg" poster="../static/space.png" autoplay loop muted playsinline webkit-playsinline>
+    <source src="../static/space.mov" type="video/mov"/>
+    <source src="http://lorensheets.weebly.com/uploads/4/1/5/8/41589751/space.mp4" type="video/mp4"/>
+    <source src="../static/space.webm" type="video/webm"/>
+  </video>
+
+  <div class="landing-page-bg-overlay"></div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <!-- <h1 class="page-title">ODYNE</h1>
+      <p class="page-subtitle">SPACE</p> -->
+      <img class="logo" src="../static/odyne_space.png" />
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid half-page padding-top-bottom page-two">
+  <div class="row">
+    <div class="col-xs-1 col-sm-2"></div>
+    <div class="col-xs-10 col-sm-8">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>Our Vision</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <p>We are passionate about seeing humanity become a space-faring society.</p>
+          <p>But there are many steps along the way, and in order to become truly space-faring, we need reasons to go to space. Odyne aims to support and build the off-earth economy by giving clever, motivated entrepreneurs ways to quickly execute their business plans on orbit, by providing on-demand orbital launches for micro- and nano-satellites.</p>
+          <p>We will be the infrastructure of the new, space economy.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-1 col-sm-2"></div>
+  </div>
+
+</div>
+
+<div class="container-fluid half-page">
+  <div class="row">
+    <div class="col-xs-12 rocket-render-container">
+      <div class="rocket-render-container-bg"></div>
+      <img class="rocket-render" src="../static/odyneRocketRender.png"/>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid half-page padding-top-bottom page-three">
+  <div class="row">
+    <div class="col-xs-1"></div>
+    <div class="col-xs-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <span class="small-txt">Our philosophy is</span>
+          <h2>Simple and Effective Rockets</h2>
+          <p>Space is hard, but we won't make it harder.  We consider ourselves 'Rocket Engineers', not rocket scientists. Humans have been launching liquid fueled rockets for almost a century, and the foundational science has already been done.  We combine this science and knowledge into simple, effective and reliable rockets, to launch micro- and nano-satellites to orbit.</p>
+        </div>
+        <div class="hidden-xs col-sm-1"></div>
+        <div class="col-xs-12 col-sm-4 xs-top-margin">
+          <span class="small-txt">Get a rocket</span>
+          <h2>On-Demand</h2>
+          <p>Our reliable manufacturing and operational chain will allow us to consistently provide on-demand and affordable access to space.</p>
+          <button class="request-info">Request Info</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-1"></div>
+  </div>
+</div>
+
+<div class="container-fluid half-page padding-top-bottom bios">
+  <div class="row">
+    <div class="col-xs-1"></div>
+    <div class="col-xs-10">
+      <div class="row team-header">
+        <div class="col-xs-12">
+          <h2>Our Team</h2>
+        </div>
+      </div>
+      <div class="row person">
+        <div class="col-sm-12 col-md-3">
+          <img class="headshot" src="../static/eric_ward.jpg"/>
+        </div>
+        <div class="col-sm-12 col-md-9">
+          <h3>Eric Ward</h3>
+          <p>Eric Ward is an experienced Systems Architect who sees growing the space industry as the next step to progressing humanity beyond the planet.
+            He recently received a Master's degree in Systems Design and Management from MIT, has published multiple technical documents on
+            <a href="https://www.researchgate.net/publication/296847016_A_METHOD_TO_EVALUATE_ARCHITECTURAL_COMPARISONS_FOR_A_CAMPAIGN_TO_EXPLORE_THE_SURFACE_OF_MARS" target="_blank">Systems Architecture</a> and the
+            <a href="https://www.researchgate.net/publication/303720798_A_Socio-Technical_Systems_Analysis_of_Change_Processes_in_the_Design_of_Flagship_Interplanetary_Missions?ev=prf_pub" target="_blank">Space</a>
+            <a href="https://www.researchgate.net/publication/296847018_Engineering_Change_Activity_Analysis_of_Space_Mission_Projects?ev=prf_pub" target="_blank">Industry</a>, has been featured in
+            <a href="http://www.fastcompany.com/3058795/the-next-frontier-for-ambitious-entrepreneurs-space" target="_blank">Fast Company</a>, and co-founded the
+            <a href="http://newspaceage.squarespace.com/" target="_blank">MIT New Space Age Conference</a>. He also holds a Bachelor’s Degree in Mechanical Engineering.</p>
+          <p>His <a href="https://www.amazon.com/Man-Who-Loved-Only-Numbers/dp/0786884061" target="_blank">Erdős</a> number is 4.</p>
+        </div>
+      </div>
+      <div class="row person">
+        <div class="col-sm-12 col-md-3">
+          <img class="headshot" src="../static/andrew_greenburg.jpg"/>
+        </div>
+        <div class="col-sm- 12 col-md-9">
+          <h3>Andrew Greenberg</h3>
+          <p>Andrew Greenberg is an embedded systems expert, and serial entrepreneur having co-founded and led
+            <a href="http://www.apdm.com/" target="_blank">two profitable</a>
+            <a href="http://www.tovatest.com/" target="_blank">small companies</a> in the Medical Device industry. Andrew is also an Associate professor at Portland State University, and is the founder of the
+            <a href="http://psas.pdx.edu/" target="_blank">Portland State Aerospace Society</a>, which touts the most sophisticated avionics in amateur rocketry.</p>
+        </div>
+      </div>
+
+      <div class="row person">
+        <div class="col-sm-12 col-md-3">
+          <img class="headshot" src="../static/john_karabaic.png"/>
+        </div>
+        <div class="col-sm- 12 col-md-9">
+          <h3>John Karabaic</h3>
+          <p>John Karabaic is a veteran of the USAF and many startups. He has dual degrees in Electrical Engineering & Physics from MIT. John worked in technical sales for most of his career, prior to recently moving into product management.</p>
+        </div>
+      </div>
+
+      <div class="row person">
+        <div class="col-sm-12 col-md-3">
+          <img class="headshot" src="../static/loren_sheets.jpg"/>
+        </div>
+        <div class="col-sm- 12 col-md-9">
+          <h3>Loren Sheets</h3>
+          <p>Loren Sheets is an experienced designer and programmer, and is responsible for the development of Odyne's proprietary software systems that optimize all aspects of launch vehicle design and mission planning. He is the developer behind
+            <a href="https://www.flippening.watch" target="_blank">Flippening Watch</a>, a prominent cryptocurrency metrics platform. He has a degree in Health Sciences, and is also an accomplished audio engineer with
+            <a href="http://alphasound.org" target="_blank">Alpha Sound</a>.
+          </p>
+        </div>
+      </div>
+
+      <div class="row team-header advisors">
+        <div class="col-xs-12">
+          <h2>Our Advisors</h2>
+        </div>
+      </div>
+      <div class="row person">
+        <div class="col-sm-12 col-md-3">
+          <img class="headshot" src="../static/natalya_bailey.jpg"/>
+        </div>
+        <div class="col-sm-12 col-md-9">
+          <h3>Natalya Bailey</h3>
+          <p>Natalya Bailey is the co-founder and CEO of <a href="https://www.accion-systems.com/" target="_blank">Accion Systems</a>, who are working to make space more affordable and accessible as a leader in high-quality, affordable propulsion technologies. Natalya has previously worked on one form of propulsion or another for over 10 years, and as a program manager of a $1.5MM propulsion program, as a systems engineer during her time at Aurora Flight Sciences, and as a founder of a previous space propulsion company.</p>
+        </div>
+      </div>
+      <div class="row person">
+        <div class="col-sm-12 col-md-3">
+          <img class="headshot" src="../static/shari_loessberg.jpg"/>
+        </div>
+        <div class="col-sm- 12 col-md-9">
+          <h3>Shari Loessberg</h3>
+          <p>Shari Loessberg is a Senior Lecturer in Technological Innovation, Entrepreneurship, and Strategic Management at the MIT Sloan School of Management. She is an experienced entrepreneur in established and emerging markets. In the United States, she founded and runs Big World, a strategy firm focused on new ventures in new markets. She also co-founded Zeta Networks, an optical networking firm built on technology developed at MIT. She holds an AB from Georgetown University and a JD from the University of Texas.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-1"></div>
+  </div>
+</div>
+
+<div class="container-fluid press-container">
+  <div class="row press">
+    <div class="col-xs-12">
+      <h5>IN THE NEWS</h5>
+      <a href="https://www.fastcompany.com/3058795/the-next-frontier-for-ambitious-entrepreneurs-space" target="_blank">
+        <img src="../static/fast-company-1.png"/>
+      </a>
+      <a href="http://www.geektime.com/2017/03/01/forget-spacex-10-companies-that-will-change-space-travel-in-2017-2018/" target="_blank">
+        <img src="../static/Geektime-logo.png"/>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="contactPage" class="container-fluid half-page padding-top-bottom contact">
+  <div class="row">
+    <div class="col-xs-12">
+      <img class="logo" src="../static/Odyne-Logo-Light.png"/>
+    </div>
+  </div>
+
+  <div class="container-fluid padding-top">
+    <div class="row">
+      <div class="col-xs-1 col-md-2"></div>
+      <div class="col-xs-10 col-md-8">
+        <div class="row">
+          <div class="col-xs-12 col-sm-7">
+            <div class="underline">
+              <span class="small-txt">Request</span>
+              <h2>Information</h2>
+            </div>
+            <div>
+              <form method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <input type="submit" name="submit" value="Submit"/>
+              </form>
+            </div>
+          </div>
+          <div class="hidden-xs col-sm-1"></div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="underline">
+              <span class="small-txt">Contact</span>
+              <h2>Us</h2>
+            </div>
+            <div class="contact-info">
+              <div class="link-row">
+                <a class="info-link" href="mailto:info@odynespace.com">info@odynespace.com</a>
+              </div>
+              <div class="link-row">
+                <a class="info-link" href="tel:503-781-9273">503.781.9273</a>
+              </div>
+              <div class="link-row">
+                <a class="social-media-link angellist" href="https://angel.co/odyne-space" target="_blank">
+                  <img src="../static/angellist.svg"/>
+                  <img src="../static/angellist.svg"/>
+                </a>
+                <a class="social-media-link gust" href="https://gust.com/companies/odyne-space" target="_blank">
+                  <img src="../static/gust_icon.png"/>
+                  <img src="../static/gust_icon.png"/>
+                </a>
+                <a class="social-media-link instagram" href="https://www.instagram.com/odyne_space/" target="_blank">
+                  <img src="../static/instagram_icon.png"/>
+                  <img src="../static/instagram_icon.png"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-1 col-md-2"></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+{% endblock %}
